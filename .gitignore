@@ -1,0 +1,25 @@
+# Node
+node_modules
+npm-debug.log*
+
+# Env
+.env
+*.env
+
+# Build
+dist
+build
+
+# SQLite
+*.db
+
+# Docker
+*.pid
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Certbot
+infra/nginx/ssl

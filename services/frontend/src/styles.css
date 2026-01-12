@@ -1,0 +1,24 @@
+body, html, #root { margin:0; height:100%; font-family: Arial; }
+.app { display:flex; height:100%; }
+.rooms { width:300px; background:#111; color:#fff; overflow:auto; }
+.room { padding:12px; cursor:pointer; border-bottom:1px solid #222; }
+.room:hover { background:#222; }
+.room.active { background:#444; }
+.chat { flex:1; padding:16px; overflow:auto; }
+.msg { margin-bottom:8px; }
+.ai { width:350px; background:#222121; padding:10px; overflow:auto; }
+.ai button { width:100%; margin-bottom:10px; }
+
+.summary-box {
+    margin-top: 10px;
+    background: #222020;
+    border-radius: 8px;
+    padding: 12px;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
